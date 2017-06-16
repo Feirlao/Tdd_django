@@ -12,7 +12,7 @@ class HomePageTest(TestCase):
          request=HttpRequest()
          response=home_page(request)
          expected_html=render_to_string('home.html')
-         self.assertEqual(response.content.decode(),expected_html)
+         self.assertEqual(response.content.decode(), expected_html)
 
      def test_home_page_can_save_post_request(self):
          request=HttpRequest()
@@ -21,6 +21,8 @@ class HomePageTest(TestCase):
 
          response=home_page(request)
          self.assertIn('A new list item',response.content.decode())
-     def sthon(self):
+         excected_html=render_to_string('home.html',
+            {'new_item_text':'A new list item'})
+         self.assertEqual(response.content.decode(),excected_html)
 
 
