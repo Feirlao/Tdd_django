@@ -847,6 +847,7 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 75: TypeEr
 
 (/usr/lib/firefox/firefox:7718): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 1497601879915	Marionette	INFO	New connections will no longer be accepted
+<<<<<<< HEAD
 1497604494038	geckodriver	INFO	Listening on 127.0.0.1:58063
 1497604495307	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
 
@@ -1137,3 +1138,159 @@ Full stack:
 
 (/usr/lib/firefox/firefox:32217): Gdk-WARNING **: /usr/lib/firefox/firefox: Fatal IO error 11 (资源暂时不可用) on X server :0.
 
+=======
+1497875359825	geckodriver	INFO	Listening on 127.0.0.1:41993
+1497875385980	geckodriver	INFO	Listening on 127.0.0.1:49027
+1497875444873	geckodriver	INFO	Listening on 127.0.0.1:41974
+1497875452173	geckodriver	INFO	Listening on 127.0.0.1:48897
+1497875523431	geckodriver	INFO	Listening on 127.0.0.1:38190
+1497875540651	geckodriver	INFO	Listening on 127.0.0.1:58415
+1497875563406	geckodriver	INFO	Listening on 127.0.0.1:39267
+1497875641711	geckodriver	INFO	Listening on 127.0.0.1:49954
+1497877728766	geckodriver	INFO	Listening on 127.0.0.1:34793
+1497877729923	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:8986): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8986): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8986): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8986): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1497877731747	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497877731748	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497877731758	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497877731758	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497877732162	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497877732163	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497877732168	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497877732169	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497877734160	Marionette	INFO	Listening on port 45657
+1497877734277	Marionette	WARN	TLS certificate errors will be ignored for this session
+1497877735674	Marionette	INFO	New connections will no longer be accepted
+1497880796123	geckodriver	INFO	Listening on 127.0.0.1:43250
+1497880797276	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:9118): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9118): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9118): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9118): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1497880797953	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880797954	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880797963	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880797964	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880798209	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880798210	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880798220	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880798221	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880799629	Marionette	INFO	Listening on port 42353
+1497880799739	Marionette	WARN	TLS certificate errors will be ignored for this session
+1497880800427	Marionette	INFO	New connections will no longer be accepted
+1497880846044	geckodriver	INFO	Listening on 127.0.0.1:37314
+1497880847192	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:9197): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9197): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9197): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9197): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1497880847632	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880847633	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880847641	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880847642	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880847832	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880847833	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880847838	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880847839	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880848821	Marionette	INFO	Listening on port 33794
+1497880848975	Marionette	WARN	TLS certificate errors will be ignored for this session
+1497880849595	Marionette	INFO	New connections will no longer be accepted
+1497880876771	geckodriver	INFO	Listening on 127.0.0.1:45543
+1497880877907	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:9276): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9276): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9276): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9276): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1497880878344	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880878346	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880878354	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880878355	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880878541	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880878541	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880878547	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497880878547	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497880879706	Marionette	INFO	Listening on port 38766
+1497880879782	Marionette	WARN	TLS certificate errors will be ignored for this session
+1497880880344	Marionette	INFO	New connections will no longer be accepted
+1497881137205	geckodriver	INFO	Listening on 127.0.0.1:43421
+1497881138350	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:9371): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9371): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9371): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9371): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1497881138795	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497881138797	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497881138807	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497881138808	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497881138996	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497881138997	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497881139002	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497881139003	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497881140170	Marionette	INFO	Listening on port 42058
+1497881140241	Marionette	WARN	TLS certificate errors will be ignored for this session
+1497881141038	Marionette	INFO	New connections will no longer be accepted
+1497881164741	geckodriver	INFO	Listening on 127.0.0.1:32958
+1497881165867	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1497881166299	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497881166300	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497881166309	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497881166309	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497881166501	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497881166502	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497881166507	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1497881166507	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1497881167553	Marionette	INFO	Listening on port 39853
+1497881167668	Marionette	WARN	TLS certificate errors will be ignored for this session
+1497881220777	Marionette	INFO	Ceased listening
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9446): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+>>>>>>> d81732fdc3a5b09658a3d4a505b8ee64e6f51f68

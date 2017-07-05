@@ -10,8 +10,12 @@ class newvistortest(unittest.TestCase):
 
     def tearDown(self):
         self.browser.implicitly_wait(5)
+<<<<<<< HEAD
         self.browser.quit()
 
+=======
+      
+>>>>>>> d81732fdc3a5b09658a3d4a505b8ee64e6f51f68
     def test_can_start_a_list_and_retrieve(self):
         self.browser.get('http://localhost:8000')
         self.assertIn('To-Do', self.browser.title)
@@ -29,8 +33,13 @@ class newvistortest(unittest.TestCase):
         inputbox.send_keys('Use peacock feathers to make a fly')
         inputbox.send_keys(Keys.ENTER)
 
+<<<<<<< HEAD
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
+=======
+        table=self.browser.find_element_by_id('id_list_table')
+        rows=table.find_elements_by_tag_name('tr')
+>>>>>>> d81732fdc3a5b09658a3d4a505b8ee64e6f51f68
         self.assertIn('1: Buy peacock feathers', [row.text for row in rows])
         self.assertIn(
             '2: Use peacock feathers to make a fly',
