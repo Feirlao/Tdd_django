@@ -13,10 +13,9 @@ class HomePageTest(TestCase):
      def test_home_page_returns_corrent_html(self):
          request=HttpRequest()
          response=home_page(request)
-         print(response)
          expected_html = render_to_string('home.html',request=request)
-     #    print('response.content.decode()\n', response.content.decode())
-     #    print('expected_html\n', expected_html)
+         #print('response.content.decode()\n', response.content.decode())
+         #print('expected_html\n', expected_html)
          csrf_regex = r'<input[^>]+csrfmiddlewaretoken[^>]+>'
          observed_html = re.sub(csrf_regex, '', response.content.decode())
          expected_html = re.sub(csrf_regex, '', expected_html)
@@ -27,7 +26,6 @@ class HomePageTest(TestCase):
          request.method='POST'
          request.POST['item_text']=('A new list item')
          response=home_page(request)
-<<<<<<< HEAD
          self.assertEqual(Item.objects.count(),1)
          new_item=Item.objects.first()
          self.assertEqual(new_item.text,'A new list item')
@@ -40,10 +38,8 @@ class HomePageTest(TestCase):
      def test_home_page_only_saves_when_necessary(self):
          request=HttpRequest()
          home_page(request)
-         self.assertEqual(Item.objects.count(),0)
-
-=======
-         print(response)
+         self.assertEqual(Item.objects.count(),1)
+         print(Item.objects.count())
          self.assertEqual(Item.objects.count(), 1)
          new_item = Item.objects.first()
          self.assertEqual(new_item.text, 'A new list item')
@@ -60,7 +56,6 @@ class HomePageTest(TestCase):
          request=HttpRequest()
          home_page(request)
          self.assertEqual(Item.objects.count(),0)
->>>>>>> 826a76537cd9d84f25e92ce18a36a4ac1e6d8ff4
 
 class ItemModelTest(TestCase):
      def test_saving_and_retrieving_items(self):
