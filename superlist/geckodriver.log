@@ -2318,3 +2318,197 @@ Full stack:
 (/usr/lib/firefox/firefox:17337): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 1500355453599	Marionette	WARN	TLS certificate errors will be ignored for this session
 1500355454833	Marionette	INFO	New connections will no longer be accepted
+1500355593807	geckodriver	INFO	Listening on 127.0.0.1:50260
+1500355594903	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:18183): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:18183): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:18183): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:18183): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500355598819	Marionette	INFO	Listening on port 48606
+1500355598937	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:18264): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:18264): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:18264): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:18264): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500355600152	Marionette	INFO	New connections will no longer be accepted
+1500355647264	geckodriver	INFO	Listening on 127.0.0.1:35194
+1500355648364	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:18623): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:18623): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:18623): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:18623): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500355652025	Marionette	INFO	Listening on port 59367
+
+(/usr/lib/firefox/firefox:18695): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:18695): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500355652093	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:18695): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:18695): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500355653348	Marionette	INFO	New connections will no longer be accepted
+[Child 18695] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-EX_27g/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1500355715881	geckodriver	INFO	Listening on 127.0.0.1:53020
+1500355716970	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:19258): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:19258): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:19258): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:19258): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500355720933	Marionette	INFO	Listening on port 45224
+1500355721067	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:19331): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:19331): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:19331): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:19331): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500355722327	Marionette	INFO	New connections will no longer be accepted
+[Child 19331] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-EX_27g/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1500356612892	geckodriver	INFO	Listening on 127.0.0.1:33100
+1500356613986	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:24956): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:24956): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:24956): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:24956): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356617995	Marionette	INFO	Listening on port 44820
+1500356618073	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:25033): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25033): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25033): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25033): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356619525	Marionette	INFO	New connections will no longer be accepted
+[Child 25033] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-EX_27g/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1500356687239	geckodriver	INFO	Listening on 127.0.0.1:35229
+1500356688330	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:25495): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:25495): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:25495): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:25495): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356692130	Marionette	INFO	Listening on port 52265
+1500356692285	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:25572): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25572): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25572): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25572): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356693488	Marionette	INFO	New connections will no longer be accepted
+[Child 25572] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-EX_27g/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1500356736542	geckodriver	INFO	Listening on 127.0.0.1:58088
+1500356737635	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:25875): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:25875): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:25875): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:25875): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356741290	Marionette	INFO	Listening on port 44200
+1500356741407	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:25961): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25961): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25961): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25961): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356742955	Marionette	INFO	New connections will no longer be accepted
+1500356831247	geckodriver	INFO	Listening on 127.0.0.1:36720
+1500356832360	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:26564): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:26564): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:26564): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:26564): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356836115	Marionette	INFO	Listening on port 43511
+1500356836261	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:26649): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:26649): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:26649): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:26649): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356837515	Marionette	INFO	New connections will no longer be accepted
+[Child 26649] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-EX_27g/firefox-53.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1500356977037	geckodriver	INFO	Listening on 127.0.0.1:34973
+1500356978123	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:27508): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27508): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:27508): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27508): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356982144	Marionette	INFO	Listening on port 42189
+1500356982267	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:27593): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:27593): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:27593): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:27593): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356983629	Marionette	INFO	New connections will no longer be accepted
+1500357036253	geckodriver	INFO	Listening on 127.0.0.1:59703
+1500357037340	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:27962): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27962): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:27962): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27962): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500357040982	Marionette	INFO	Listening on port 48810
+1500357041119	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:28038): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:28038): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:28038): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:28038): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500357042341	Marionette	INFO	New connections will no longer be accepted
