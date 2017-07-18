@@ -24,8 +24,6 @@ class HomePageTest(TestCase):
          request.method='POST'
          request.POST['item_text']=('A new list item')
 
-         response=home_page(request)
-
          self.assertEqual(Item.objects.count(), 1)
          new_item = Item.objects.first()
          self.assertEqual(new_item.text, 'A new list item')
