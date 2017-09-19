@@ -22,6 +22,7 @@ from django.conf.urls import url,include
 from superlist.lists import views
 urlpatterns =[
     #url(r'^admin/', admin.site.urls),
-    url(r'^$', views.home_page, name='home_page')
+    url(r'^$', views.home_page, name='home_page'),
     #url(r'superlists.views.test', name='test'),
+    url(r'^lists/the-only-list/$',views.view_list,name='view_list'),
 ]

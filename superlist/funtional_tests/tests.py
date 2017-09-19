@@ -1,6 +1,7 @@
 from selenium import webdriver
 from django.test import LiveServerTestCase
 from selenium.webdriver.common.keys import Keys
+import time
 import unittest
 
 
@@ -11,17 +12,18 @@ class newvistortest(LiveServerTestCase):
 
     def tearDown(self):
         self.browser.implicitly_wait(5)
+        self.browser.implicitly_wait(5)
         self.browser.quit()
 
-
-    def test_can_start_a_list_and_retrieve(self):
+    def test_layout_and_styling(self):
         self.browser.get(self.live_server_url)
-        inputbox = self.browser.find_element_by_id('id_new_item')
-        inputbox.send_keys('Buy peacock feathers')
-        inputbox.send_keys(Keys.ENTER)
+        self.browser.set_window_size(1024,768)
 
-        inputbox = self.browser.find_element_by_id('id_new_item')
-        inputbox.send_keys('Use peacock feathers to make a fly')
-        inputbox.send_keys(Keys.ENTER)
+        inputbox=self.browser.find_element_by_id('id_new_item')
+        inputbox.send_keys('testing\n')
+        self.assertAlmostEqual(
+            inputbox.location['x']+inputbox.size['width']/2,
+            512,
+            delta=5
+        )
 
-        self.fail('finish the test')
