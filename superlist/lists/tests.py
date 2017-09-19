@@ -4,12 +4,12 @@ from django.test import TestCase
 from django.http import HttpRequest
 from superlist.lists.views import home_page
 from django.template.loader import render_to_string
-from lists.models import Item
+from lists.models import Item,list
 import re
 class HomePageTest(TestCase):
      def test_root_url_resolves_to_home_page_view(self):
-         found = resolve('/') # ➋
-         self.assertEqual(found.func, home_page) # ➌
+         found = resolve('/')
+         self.assertEqual(found.func, home_page)
      def test_home_page_returns_corrent_html(self):
          request=HttpRequest()
          response=home_page(request)
@@ -19,21 +19,28 @@ class HomePageTest(TestCase):
          expected_html = re.sub(csrf_regex, '', expected_html)
          self.assertEqual(observed_html, expected_html)
 
-class ItemModelTest(TestCase):
+class listAndItemModelsTest(TestCase):
      def test_saving_and_retrieving_items(self):
+         list_=list()
+         list_.save()
          first_item = Item()
          first_item.text = ('The first (ever) list item')
+         first_item.list=list_
          first_item.save()
          second_item = Item()
          second_item.text = ('Item the second')
+         second_item.list = list_
          second_item.save()
+         saved_list=list.objects.first()
+         self.assertEqual(saved_list,list_)
          saved_items = Item.objects.all()
          self.assertEqual(saved_items.count(), 2)
          first_saved_item = saved_items[0]
          second_saved_item = saved_items[1]
          self.assertEqual(first_saved_item.text, 'The first (ever) list item')
+         self.assertEqual(first_saved_item.list, list_)
          self.assertEqual(second_saved_item.text, 'Item the second')
-
+         self.assertEqual(second_saved_item.list, list_)
 class ListViewTest(TestCase):
     def test_home_page_displays_all_list_items(self):
         Item.objects.create(text='itemey 1')
@@ -47,10 +54,9 @@ class ListViewTest(TestCase):
 
 class NewlistTest(TestCase):
     def  test_can_save_post_request(self):
-         self.client.post('/lists/new',data={'item_test':'A new list item '})
+         self.client.post('/lists/new',data={'item_text':'A new list item '})
          self.assertEqual(Item.objects.count(),1)
-         new_item=Item.objects.first()
-         self.assertEqual(new_item,'A new list item ')
+
     def test_redirects_after_POST(self):
-        response=self.client.post('/lists/new',data={'item_test':'A new list item '})
+        response=self.client.post('/lists/new',data={'item_text':'A new list item '})
         self.assertRedirects(response,'/lists/the-only-list/')
