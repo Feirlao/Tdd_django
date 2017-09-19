@@ -1,0 +1,21 @@
+1500356525325	geckodriver	INFO	Listening on 127.0.0.1:55403
+1500356526399	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:24343): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:24343): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:24343): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:24343): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356532303	Marionette	INFO	Listening on port 49187
+1500356532437	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24444): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:24444): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:24444): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:24444): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1500356533629	Marionette	INFO	New connections will no longer be accepted

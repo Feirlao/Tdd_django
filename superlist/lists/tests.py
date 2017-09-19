@@ -19,11 +19,6 @@ class HomePageTest(TestCase):
          expected_html = re.sub(csrf_regex, '', expected_html)
          self.assertEqual(observed_html, expected_html)
 
-     def test_home_page_only_saves_items_when_necessary(self):
-         request=HttpRequest()
-         home_page(request)
-         self.assertEqual(Item.objects.count(),0)
-
 class ItemModelTest(TestCase):
      def test_saving_and_retrieving_items(self):
          first_item = Item()
@@ -56,8 +51,6 @@ class NewlistTest(TestCase):
          self.assertEqual(Item.objects.count(),1)
          new_item=Item.objects.first()
          self.assertEqual(new_item,'A new list item ')
-
     def test_redirects_after_POST(self):
         response=self.client.post('/lists/new',data={'item_test':'A new list item '})
-        self.assertEqual(response.status_code, 302)
-        self.assertEqual(response['location'], '/lists/the-only-list/')
+        self.assertRedirects(response,'/lists/the-only-list/')
