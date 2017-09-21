@@ -1,11 +1,12 @@
 from selenium import webdriver
 from django.test import LiveServerTestCase
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium.webdriver.common.keys import Keys
 import time
 import unittest
 
 
-class newvistortest(LiveServerTestCase):
+class newvistortest(StaticLiveServerTestCase):
     def setUp(self):
         self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(3)
@@ -13,7 +14,7 @@ class newvistortest(LiveServerTestCase):
     def tearDown(self):
         self.browser.implicitly_wait(5)
         self.browser.implicitly_wait(5)
-
+        
 
     def test_layout_and_styling(self):
         self.browser.get(self.live_server_url)
@@ -23,7 +24,7 @@ class newvistortest(LiveServerTestCase):
         inputbox.send_keys('testing\n')
         self.assertAlmostEqual(
             inputbox.location['x']+inputbox.size['width']/2,
-            512,
+            self.browser.get_window_size().get("width") / 2,
             delta=5
         )
 

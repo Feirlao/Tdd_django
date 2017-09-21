@@ -3328,3 +3328,894 @@ A coding exception was thrown and uncaught in a Task.
 Full message: TypeError: NetworkError when attempting to fetch resource.
 Full stack: 
 *************************
+
+(firefox:5456): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5456): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5456): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5456): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5456): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5456): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5456): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5456): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:5456): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:5456): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4509): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4509): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4509): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4509): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4509): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4509): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4509): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4509): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4509): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4509): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505961710776	geckodriver	INFO	Listening on 127.0.0.1:34293
+1505961712174	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+
+(firefox:16525): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': 没有那个文件或目录
+
+This likely means that your installation is broken.
+Try running the command
+  gdk-pixbuf-query-loaders > /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache
+to make things work again for the time being.
+1505961720636	Marionette	INFO	Enabled via --marionette
+
+(firefox:16525): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/entry.png': 无法识别的图像文件格式
+
+(firefox:16525): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/entry-disabled.png': 无法识别的图像文件格式
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button.png': 无法识别的图像文件格式
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button-hover.png': 无法识别的图像文件格式
+
+(/usr/lib/firefox/firefox:16710): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': 没有那个文件或目录
+
+This likely means that your installation is broken.
+Try running the command
+  gdk-pixbuf-query-loaders > /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache
+to make things work again for the time being.
+
+(/usr/lib/firefox/firefox:16710): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/entry.png': 无法识别的图像文件格式
+
+(/usr/lib/firefox/firefox:16710): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/entry-disabled.png': 无法识别的图像文件格式
+
+(/usr/lib/firefox/firefox:16710): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16710): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16710): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button.png': 无法识别的图像文件格式
+
+(/usr/lib/firefox/firefox:16710): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16710): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:16710): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button-hover.png': 无法识别的图像文件格式
+1505961740620	Marionette	INFO	Listening on port 41972
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505961740850	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505961740915	Marionette	DEBUG	loaded listener.js
+1505961741476	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505961742362	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505961742363	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505961742369	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:47148/"
+1505961742425	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:47148/"
+
+(/usr/lib/firefox/firefox:16710): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/entry-focused.png': 无法识别的图像文件格式
+[Parent 16525] WARNING: pipe error: 断开的管道: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:16525): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505962294999	geckodriver	INFO	Listening on 127.0.0.1:38157
+1505962296199	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505962300685	Marionette	INFO	Enabled via --marionette
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:22648): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:22648): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:22648): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:22648): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505962307507	Marionette	INFO	Listening on port 41631
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505962307581	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505962307653	Marionette	DEBUG	loaded listener.js
+1505962307799	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505962308228	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505962308228	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505962308249	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:53367/"
+1505962308344	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:53367/"
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:22546): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505962595357	geckodriver	INFO	Listening on 127.0.0.1:35746
+1505962596468	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505962598017	Marionette	INFO	Enabled via --marionette
+
+(firefox:24434): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:24434): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:24434): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:24434): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:24509): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:24509): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:24509): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:24509): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505962603829	Marionette	INFO	Listening on port 46958
+1505962603913	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505962603965	Marionette	DEBUG	loaded listener.js
+1505962604206	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505962604865	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505962604866	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505962604889	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:42489/"
+1505962604994	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:42489/"
+1505962774242	geckodriver	INFO	Listening on 127.0.0.1:36422
+1505962775341	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505962776984	Marionette	INFO	Enabled via --marionette
+
+(firefox:25634): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:25634): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:25634): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:25634): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505962782854	Marionette	INFO	Listening on port 54882
+1505962782880	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+
+(/usr/lib/firefox/firefox:25706): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25706): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25706): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:25706): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505962783130	Marionette	DEBUG	loaded listener.js
+1505962783197	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505962783367	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505962783368	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505962783379	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:58045/"
+1505962783448	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:58045/"
+1505962895696	geckodriver	INFO	Listening on 127.0.0.1:33338
+1505962896824	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505962900798	Marionette	INFO	Enabled via --marionette
+
+(firefox:26469): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:26469): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:26469): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:26469): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505962909349	Marionette	INFO	Listening on port 33265
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505962909561	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:26561): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:26561): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:26561): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:26561): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505962910390	Marionette	DEBUG	loaded listener.js
+1505962910523	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505962910716	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505962910716	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505962910724	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54377/"
+1505962910839	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54377/"
+1505963109996	geckodriver	INFO	Listening on 127.0.0.1:57788
+1505963111125	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505963115957	Marionette	INFO	Enabled via --marionette
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:27918): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:27918): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:27918): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:27918): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505963126653	Marionette	INFO	Listening on port 44907
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505963126884	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505963126928	Marionette	DEBUG	loaded listener.js
+1505963127106	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505963127424	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505963127424	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505963127430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:50553/"
+1505963127433	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:50553/"
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:27816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505963185166	geckodriver	INFO	Listening on 127.0.0.1:49356
+1505963186347	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505963189590	Marionette	INFO	Enabled via --marionette
+
+(firefox:28357): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:28357): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:28357): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:28357): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:28465): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:28465): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:28465): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:28465): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505963196753	Marionette	INFO	Listening on port 57498
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505963196847	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505963196923	Marionette	DEBUG	loaded listener.js
+1505963197068	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505963197280	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505963197281	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505963197288	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:55141/"
+1505963197409	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:55141/"
+1505963992620	geckodriver	INFO	Listening on 127.0.0.1:60001
+1505963993787	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505964003492	Marionette	INFO	Enabled via --marionette
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:697): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:697): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:697): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:697): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964066708	Marionette	INFO	Listening on port 38418
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:562): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964146101	geckodriver	INFO	Listening on 127.0.0.1:60512
+1505964147353	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505964152673	Marionette	INFO	Enabled via --marionette
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964170495	Marionette	INFO	Listening on port 55620
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505964171262	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:1742): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1742): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1742): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:1742): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964172716	Marionette	DEBUG	loaded listener.js
+1505964173563	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505964175262	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505964175263	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505964175529	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:52787/"
+1505964176729	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:52787/"
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:1622): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964243597	geckodriver	INFO	Listening on 127.0.0.1:45740
+1505964244755	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505964249984	Marionette	INFO	Enabled via --marionette
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964265370	Marionette	INFO	Listening on port 50192
+1505964265484	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+
+(/usr/lib/firefox/firefox:2434): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2434): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2434): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2434): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964266389	Marionette	DEBUG	loaded listener.js
+1505964266641	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505964267036	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505964267037	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505964267127	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:60786/"
+1505964267409	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:60786/"
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2324): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964300143	geckodriver	INFO	Listening on 127.0.0.1:55913
+1505964301313	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505964305909	Marionette	INFO	Enabled via --marionette
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2934): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2934): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2934): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2934): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964320544	Marionette	INFO	Listening on port 36554
+1505964320726	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505964320794	Marionette	DEBUG	loaded listener.js
+1505964320927	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505964321367	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505964321367	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505964321446	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:52277/"
+1505964321686	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:52277/"
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2816): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964395968	geckodriver	INFO	Listening on 127.0.0.1:59962
+1505964397218	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505964402312	Marionette	INFO	Enabled via --marionette
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964414777	Marionette	INFO	Listening on port 58340
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505964415031	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3597): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3597): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3597): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3597): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964416028	Marionette	DEBUG	loaded listener.js
+1505964416511	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505964416883	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505964416884	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505964416940	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:33972/"
+1505964417325	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:33972/"
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964449711	geckodriver	INFO	Listening on 127.0.0.1:52182
+1505964450894	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505964454019	Marionette	INFO	Enabled via --marionette
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4029): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4029): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4029): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4029): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964462390	Marionette	INFO	Listening on port 41199
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505964462780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505964462859	Marionette	DEBUG	loaded listener.js
+1505964463486	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505964463958	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505964463958	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505964464038	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:41075/"
+1505964464379	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:41075/"
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3924): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964928697	geckodriver	INFO	Listening on 127.0.0.1:51781
+1505964929929	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505964935883	Marionette	INFO	Enabled via --marionette
+
+(firefox:7084): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7084): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7084): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7084): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964945576	Marionette	INFO	Listening on port 50066
+1505964945964	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+
+(/usr/lib/firefox/firefox:7199): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7199): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7199): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7199): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505964947206	Marionette	DEBUG	loaded listener.js
+1505964947450	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505964947762	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505964947762	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505964947801	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:59154/"
+1505964948098	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:59154/"
+1505964949090	Marionette	INFO	New connections will no longer be accepted
+[Child 7199] WARNING: pipe error (17): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7199] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1505965007083	geckodriver	INFO	Listening on 127.0.0.1:39812
+1505965008238	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505965012175	Marionette	INFO	Enabled via --marionette
+
+(firefox:7649): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7649): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7649): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7649): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7744): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7744): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7744): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:7744): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505965020165	Marionette	INFO	Listening on port 59763
+1505965020486	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505965020568	Marionette	DEBUG	loaded listener.js
+1505965020722	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505965021012	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505965021012	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505965021054	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:50811/"
+1505965021331	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:50811/"
+1505965022960	Marionette	INFO	New connections will no longer be accepted
+1505965077593	geckodriver	INFO	Listening on 127.0.0.1:45311
+1505965078690	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505965082224	Marionette	INFO	Enabled via --marionette
+
+(firefox:8191): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8191): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8191): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8191): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8275): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8275): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8275): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8275): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505965088639	Marionette	INFO	Listening on port 43061
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505965088739	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505965088795	Marionette	DEBUG	loaded listener.js
+1505965088931	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505965089178	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505965089179	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505965089229	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:59326/"
+1505965089411	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:59326/"
+1505965090794	Marionette	INFO	New connections will no longer be accepted
+[Child 8275] WARNING: pipe error (16): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8275] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1505965182465	geckodriver	INFO	Listening on 127.0.0.1:52024
+1505965183640	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505965186324	Marionette	INFO	Enabled via --marionette
+
+(firefox:8929): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8929): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8929): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8929): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9006): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9006): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9006): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9006): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505965192007	Marionette	INFO	Listening on port 55638
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505965192083	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505965192150	Marionette	DEBUG	loaded listener.js
+1505965192637	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505965192912	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505965192912	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505965192945	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:53762/"
+1505965193164	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:53762/"
+1505965194729	Marionette	INFO	New connections will no longer be accepted
+[Child 9006] WARNING: pipe error (17): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9006] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1505965254479	geckodriver	INFO	Listening on 127.0.0.1:53831
+1505965255590	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505965258504	Marionette	INFO	Enabled via --marionette
+
+(firefox:9503): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9503): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9503): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9503): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9598): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9598): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9598): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9598): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505965261642	Marionette	INFO	Listening on port 43657
+1505965261758	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505965261824	Marionette	DEBUG	loaded listener.js
+1505965262322	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505965262994	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505965262995	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505965263063	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:55795/"
+1505965263134	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:55795/"
+1505965263495	Marionette	INFO	New connections will no longer be accepted
+[Child 9598] WARNING: pipe error (16): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 9598] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1505965275133	geckodriver	INFO	Listening on 127.0.0.1:53070
+1505965276241	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505965278040	Marionette	INFO	Enabled via --marionette
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9826): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9826): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9826): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:9826): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1505965281041	Marionette	INFO	Listening on port 34643
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505965281177	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505965281249	Marionette	DEBUG	loaded listener.js
+1505965281295	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505965281795	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505965281795	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505965281806	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:52539/"
+1505965281902	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:52539/"
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9745): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
