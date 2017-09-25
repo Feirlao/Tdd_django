@@ -5358,3 +5358,34 @@ JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCK
 1506072546009	Marionette	INFO	New connections will no longer be accepted
 [Child 9172] WARNING: pipe error (17): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 9172] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1506306361257	geckodriver	INFO	Listening on 127.0.0.1:59763
+1506306362475	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1506306365989	Marionette	INFO	Enabled via --marionette
+
+(firefox:8357): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8357): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8357): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8357): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8449): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8449): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8449): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:8449): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506306371430	Marionette	INFO	Listening on port 51676
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506306371556	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506306371597	Marionette	DEBUG	loaded listener.js
+1506306371660	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506306371829	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506306371829	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506306371842	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57100/"
+1506306371943	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57100/"
+1506306372908	Marionette	INFO	New connections will no longer be accepted
+[Child 8449] WARNING: pipe error (17): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8449] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
