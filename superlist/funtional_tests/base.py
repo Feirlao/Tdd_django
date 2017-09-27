@@ -31,3 +31,5 @@ class FunctionalTest(StaticLiveServerTestCase):
     def check_for_row_in_list_table(self, row_text):
         pass
 
+    def get_item_inpt_box(self):
+        return self.browser.find_element_by_id('id_text')
