@@ -30,6 +30,7 @@ def new_list(request):
 
     return redirect(list_)
 
+
 def add_item(request,list_id):
     list_ = List.objects.get(id=list_id)
     Item.objects.create(text=request.POST['item_text'],list=list_)
