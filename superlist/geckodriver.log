@@ -8056,3 +8056,5 @@ JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCK
 1506502019553	Marionette	INFO	New connections will no longer be accepted
 [Child 25408] WARNING: pipe error (15): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 25408] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1506588086443	geckodriver	INFO	Listening on 127.0.0.1:46810
+1506588087664	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
