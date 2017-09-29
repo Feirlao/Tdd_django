@@ -1,17 +1,9 @@
-
-from django.core.urlresolvers import resolve
 from django.test import TestCase
-from django.http import HttpRequest
-from superlist.lists.views import home_page
-from django.template.loader import render_to_string
-from lists.models import Item,List
-import re
-from lists.forms import ItemForm,EMPTY_LIST_ERROR
+from lists.forms import ItemForm, EMPTY_LIST_ERROR,ExistingListItemForm
+from lists.models import Item, List
+
 
 class HomePageTest(TestCase):
-
-
-
 
      def test_home_page_renders_home_template(self):
          response=self.client.get('/')
@@ -60,7 +52,7 @@ class ListViewTest(TestCase):
     def test_displays_item_form(self):
         list_=List.objects.create()
         response=self.client.get('/lists/%d/'%(list_.id))
-        self.assertIsInstance(response.context['form'],ItemForm)
+        self.assertIsInstance(response.context['form'],ExistingListItemForm)
         self.assertContains(response,'name="text"')
 
 
@@ -80,7 +72,7 @@ class ListViewTest(TestCase):
 
     def test_for_invalid_input_passes_form_to_template(self):
         response = self.post_invalid_input()
-        self.assertIsInstance(response.context['form'], ItemForm)
+        self.assertIsInstance(response.context['form'], ExistingListItemForm)
 
     def test_for_invalid_input_shows_error_on_page(self):
         response = self.post_invalid_input()
@@ -109,6 +101,7 @@ class NewlistTest(TestCase):
         new_item = Item.objects.first()
         self.assertEqual(new_item.text, 'A new item for an existing list')
         self.assertEqual(new_item.list, correct_list)
+
 
     def test_redirects_to_list_view(self):
         other_list = List.objects.create()
